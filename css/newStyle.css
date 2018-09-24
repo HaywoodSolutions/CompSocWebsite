@@ -1,0 +1,196 @@
+* {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+-webkit-tap-highlight-color: transparent;
+}
+
+script, style, head {display: none;}
+
+#bgvid {
+  /** height: 100vh; **/
+  width: 100%;
+    height: 58%;
+    display: block;
+    position: relative;
+}
+
+#tagline {
+  text-align: center;
+}
+
+#full {
+/** height: 100vh; **/
+ width: 100%;
+}
+
+h1 {
+  	font-family: 'Open Sans';
+  	font-weight: 800;
+  	letter-spacing: -2px;
+  	line-height: 84px;
+  	text-transform: uppercase;
+    font-size: calc(4rem + 4vw);
+    padding: 2rem;
+    color: #424242;
+}
+
+h2 {
+font-family: 'Roboto Condensed', sans-serif;
+text-align: left;
+font-style: bold;
+padding: 1rem;
+padding-left: 4rem;
+color: #424242;
+}
+
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+
+padding: calc(1rem + 2vw) 0;
+}
+
+h3 {
+  font-family:'Open Sans';
+  font-size: calc(1rem + 1vw);
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+#title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    background: white;
+    color: transparent;
+}
+
+#bgvid iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+/** height: 100vh; **/
+width: 50%;
+}
+
+#noleft {
+  padding-left: 0;
+}
+
+h4 a {
+ text-decoration: none;
+ color: inherit;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: calc(0.5rem + 1vw);
+}
+
+.lower_pictures {
+  padding-bottom: 10rem;
+}
+
+h5 {
+  padding: 0;
+}
+h4 a {
+ text-decoration: none;
+ color: inherit;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  color: #231900;
+	font-family: 'Crimson Text';
+	font-size: calc(1rem + 0.5vw);
+  padding: calc(2rem + 2vw);
+  padding-top: 0;
+}
+
+.featured {
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  float: left;
+  text-align: center;
+}
+
+h4 a {
+  float: left;
+  width: 33.33%;
+  background-color: black;
+  line-height: 105px;
+  color: white;
+}
+
+h4 a:hover {
+  background-color: white;
+  color: #424242;
+}
+
+p a {
+  color: black;
+}
+
+#summary {
+  background-color: #757575;
+  width: 75%;
+  min-width: 420px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.column {
+  width: 75%;
+  min-width: 420px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+#thetext {
+  background-color: #eeeeee;
+}
+
+#shakespeare {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #eeeeee;
+}
+
+#shakespeare p {
+white-space: pre;
+}
+
+#directorsnotes {
+  background-color: #bdbdbd;
+}
+
+#thevideo {
+  background-color: #212121;
+}

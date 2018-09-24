@@ -1,0 +1,30 @@
+.account-type {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 100px;
+    margin: 15px 5px;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.25s;
+    display: block;
+    border-radius: .25em;
+}
+.title {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 100px;
+    margin: 15px 5px;
+    -webkit-transition: all 0.4s; /* Safari */
+    transition: all 0.25s;
+    display: block;
+    border-radius: .25em;
+}
+
+.account-type:hover {
+    background-color: #8b8b8b;
+}

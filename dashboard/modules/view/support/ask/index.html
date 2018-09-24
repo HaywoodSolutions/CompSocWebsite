@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/core.css">
+        <link rel="stylesheet" href="/css/account-type.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <title>KCS Support Ask</title>
+    </head>
+    <body>
+        <div class="page">
+            <div class="content">
+                <div class="bg full" style="background-image: url(/archive/hackkent18imgs/IMG_9970.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="logo-container">
+                                        <img src="/images/KCSlogo5500.png" class="logo small" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12">
+                                    <ul class="list-group" id="listFilter">
+                                        <li class="list-group-item justify-content-between align-items-center d-flex active">
+                                            <a class="btn btn-secondary back" href="javascript:history.back()" role="button"></a>
+                                            <h3>CO320 Ask a Question</h3>
+                                            <a class="btn btn-secondary home" href="/" role="button"></a>
+                                        </li>
+                                        <li class="searchable list-group-item justify-content-between align-items-center">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="question">Your Question</label>
+                                                    <input type="email" class="form-control" id="question" placeholder="Enter question title" size="75" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="content">Give some more infomation</label>
+                                                    <textarea class="form-control" id="content" rows="4" placeholder="I am having problems with...."></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="visibility">Visibility of Question</label>
+                                                    <select class="form-control" id="visibility" aria-describedby="visibilityHelp">
+                                                        <option>Everyone</option>
+                                                        <option>Students</option>
+                                                        <option>Lecturer/Staff</option>
+                                                        <option>Private (Lecturer emailed directly)</option>
+                                                    </select>
+                                                    <small id="visibilityHelp" class="form-text text-muted">You will be able to choose the visibility of your question</small>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="visibility">Tags</label>
+                                                    <input id="tags" name="tags" type="tags" pattern="^#" placeholder="Tags">
+                                                    <small id="visibilityHelp" class="form-text text-muted">You will help lecturers and students find your question.</small>
+                                                </div>
+                                                <script>[].forEach.call(document.querySelectorAll('input[type="tags"]'), tagsInput);</script>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </li>
+                                        <li class="searchable list-group-item justify-content-between align-items-center">
+                                            <h6 class="text-muted"><small>By proceeding you accept the <a class="blend" href="/profile?id=">Rules and Conditions</a></small></h6>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function(){
+                  $("#listSearch").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#listFilter .searchable").filter(function() {
+                        if ($(this).text().toLowerCase().indexOf(value.toLowerCase()) > -1) {
+                            $(this).show();
+                        } else $(this).hide();
+                    });
+                  });
+                });
+            </script>
+    </body>
+</html>

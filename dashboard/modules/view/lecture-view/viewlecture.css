@@ -1,0 +1,311 @@
+body {
+    background: black;
+    margin: 0px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+.list-group {
+    height: 100vh;
+}
+
+.lecture {
+    display: flex;
+    width: 100%;
+    min-height: 140px;
+    background-color: gray;
+    border-radius: .25em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lecture .course {
+    display: block;
+    font-size: 2em;
+    color: white;
+}
+
+.lecture .name {
+    display: block;
+    font-size: 3em;
+    color: white;
+}
+
+.lecture .time {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: .7em;
+    right: 1em;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0,0,0,1);
+    padding: 0em .25em; 
+    border-radius: .25em;
+}
+
+.lecture .upload {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: .7em;
+    left: 1em;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0,0,0,1);
+    padding: 0em .25em; 
+    border-radius: .25em;
+    flex-direction: row;
+}
+
+.btn-group.bar-mode {
+    padding: 5px;
+    padding-top: 50px;
+    width: 100%;
+}
+.btn-group.bar-mode .btn {
+    width: calc(100% /3);
+}
+
+control-bar{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    background: transparent;
+    width: 100%;
+}
+
+marker-timeline{
+    position: fixed;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #333;
+    width: calc(100% - 20px); 
+    border-color: transparent;
+    border-radius: 2.5px;
+}
+
+marker-timeline a {
+    width: 10px;
+    height: 5px;
+    margin: 5px;
+    position: fixed;
+    background: #4d4d4d;
+    z-index: 50;
+}
+
+
+progress-indicator {
+    position: fixed;
+    height: 5px;
+    background: red;
+    border-radius: 2.5px;
+}
+
+seek-indicator {
+    position: fixed;
+    height: 10px;
+    background: #939393;
+}
+
+video-controls {
+    bottom: 0px;
+    position: fixed;
+    height: 39px;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+progress-timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+     height: 100%;
+    text-align: center;
+    text-decoration: none !important;
+    color: white;
+    float: left;
+    font-size: 1.5em;
+}
+
+control-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2em;
+    text-decoration: none !important;
+    color: white;
+    float: left;
+    width: 50px;
+    height: 100%;
+}
+
+.right {
+    float: right;
+}
+
+video {
+    background: black;
+}
+
+marker-teleprompter {
+    top: 0;
+    right: 0;
+    position:fixed;
+    text-align: center;
+    padding: .4em .6em;
+    font-size: 2em;
+    display: inline-block;
+    text-decoration: none !important;
+    color: white;
+    float: left;
+    width: 50px;
+    z-index: 5;
+}
+
+marker-teleprompter.dark{
+    color: black !important;
+}
+
+.lectures{
+    max-height:100vh;
+    overflow-y: auto;
+}
+
+.side-pannel {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    width: 300px;
+    max-height: 100vh;
+    background: white;
+    display: block;
+}
+
+.selected-red {
+    background: #a41034;
+}
+
+.sidebar-container {
+    position: relative;
+    top: 40px;
+    width: auto;
+    height: calc(100% - 40px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.chapter {
+    padding: 10px;
+    color: white;
+}
+
+#sidebar-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #4d4d4d;
+}
+
+#sidebar-container::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #4d4d4d;
+}
+
+#sidebar-container::-webkit-scrollbar-thumb
+{
+	background-color: #939393;
+}
+
+.tree-item{
+    padding: 4px;
+}
+
+.tree-item h4{
+    color: whitesmoke;
+}
+
+.tree-item button{
+    width: 30px;
+    height: 30px;
+    top: -46px;
+    left: calc(100% - 25px);
+    position: relative;
+    background-color: rgb(30,30,30);
+    color: white;
+    border:none;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.active .fa-chevron-left {
+    display:none;
+}
+
+.disabled .fa-chevron-down  {
+    display:none;
+}
+
+.captions {
+    position: relative;
+    top: -25px;
+    max-height: 200px;
+    overflow-y: scroll;
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.captions.disabled {
+    display:none;
+}
+
+.captions mark- {
+    display: block;
+    
+}
+
+.captions mark- span{
+    color: #fff;
+    font-size: 1.1rem;
+    padding-right: .5rem;
+    color: rgba(255,255,255,0.75);
+}
+
+.captions mark- a{
+    flex: 1 1 auto;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.5);
+}

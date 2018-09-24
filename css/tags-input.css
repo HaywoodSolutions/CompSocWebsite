@@ -1,0 +1,53 @@
+.tags-input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .2rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.tags-input .tag {
+  display: inline-block;
+  background: #EEE;
+  color: #444;
+  padding: 0 4px;
+  margin: 2px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  font: inherit;
+  user-select: none;
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+.tags-input .tag.selected {
+  background-color: #777;
+  border-color: #777;
+  color: #EEE;
+}
+.tags-input .tag.dupe {
+  transform: scale3d(1.2, 1.2, 1.2);
+  background-color: #FCC;
+  border-color: #700;
+}
+.tags-input input {
+  appearance: none !important;
+  display: inline-block !important;
+  padding: 3px;
+  margin: 0 !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  font: inherit !important;
+  font-size: 100% !important;
+  outline: none !important;
+    text-transform:lowercase;
+}
+.tags-input .selected ~ input {
+  opacity: 0.3;
+}

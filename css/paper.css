@@ -1,0 +1,14 @@
+.paper {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.paper img {
+    padding: 5px;
+}
+
+.paper marker {
+    display: block;
+    text-align: right;
+    width: 100%;
+}

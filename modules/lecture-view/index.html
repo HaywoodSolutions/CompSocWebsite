@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Lecture View</title>
+        <meta name="description" content="A web app that intends to enhance the watching experience of the School of Computing video archive.">
+        
+        <link rel="stylesheet" href="viewlecture.css">
+        <script src="viewlecture.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://use.fontawesome.com/5a362ad19a.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    </head>
+    <body class="blackbg">
+            <video  id="video" frameborder="0" allowfullscreen="1" gesture="media" allow="encrypted-media" width="100%" height="100%" class="blackbg">
+              <source src="https://player.kent.ac.uk/Panopto/Content/Sessions/a55c2766-704e-4d40-a2e4-79cac8928664/3887e2de-e263-45e1-bd44-5bff2a0bcea2-c400d09e-241f-40e9-884c-2f3b8a55a585.mp4?invocationId=2c4bf128-3eea-e711-8401-00505698061a" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+
+        <!-- Video Controls -->
+        
+        <control-bar>
+            <marker-timeline id="timeline">
+                <j id="breadcrumbs"></j>
+                <progress-indicator id="progress_bar"></progress-indicator>
+                <seek-indicator style="display: none; left: 693px;"></seek-indicator>
+            </marker-timeline>
+            <video-controls>
+                <control-button id="play-pause">
+                    <i class="fa fa-play"></i>
+                </control-button>
+                <control-button id="next-chapter">
+                    <i class="fa fa-fast-forward"></i>
+                </control-button>
+                <progress-timer>
+                    00:00:00-00:00:00
+                </progress-timer>
+                <a href="https://kentcomputingsociety.co.uk/lectures/2017/CO320/lecture19.srt">
+                <control-button class="right" id="next-chapter">
+                    <i class="fa fa-commenting"></i>
+                </control-button>
+                </a>
+            </video-controls>
+        </control-bar>
+        <marker-teleprompter id="open-side-pannel">
+            <i class="fa fa-list"></i>
+        </marker-teleprompter>
+        <div class="side-pannel" id="side-pannel" style="display: none;">
+            <div class="btn-group btn-group-toggle bar-mode" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Lectures
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Subtitles
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Comments
+                </label>
+            </div>
+            <div class="lectures">
+                <ul class="list-group list-group-flush">
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+1" alt="Lecture 1">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+2" alt="Lecture 2">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+3" alt="Lecture 3">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+4" alt="Lecture 4">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+5" alt="Lecture 5">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+6" alt="Lecture 6">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+7" alt="Lecture 7">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+8" alt="Lecture 8">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+9" alt="Lecture 9">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+10" alt="Lecture 10">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+11" alt="Lecture 11">
+                    </div>
+                    <div class="card list-group-item" style="width: 100%;">
+                        <img class="card-img-top" src="http://via.placeholder.com/300x150/f0f0f0?text=Lecture+12" alt="Lecture 12">
+                    </div>
+                </ul>
+            </div>
+            <div class="subtitles">
+                <marker-teleprompter id="close-side-pannel" class="selected-red">
+                    <i class="fa fa-list"></i>
+                </marker-teleprompter>
+                <div id="sidebar-container" class="sidebar-container">
+
+                </div>
+            </div>
+        </div>      
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<?php
+class final secureAuth17 { 
+    private $1stYearUndergradCant = array("th431","af491","aml42","aw524","azd2","blfs2","bt242","cc688","clt35","cs782","db607","dd372","df244","dp404","ep317","es440","hb317","hn65","io68","jb2050","jb2051","jc704","jd556","jdg23","jh880","jhjr2","jjah2","jjm27","jm865","jp657","js743","kd286","kh362","kk467","km628","lw459","mcer2","md485","mp618","ms2023","ni67","nj205","pc383","rf249","rk303","rp468","rrt6","sm779","ss2261","ue21","ams79","sr642","rvb7","hc313","ma838","asg33","fs285","sm2089","sa779","alo26","ij39","jaet3","tjcj2","os216","jl587","ll375","ps515","erd8","kkc21","bb279","pg307","ar560","ss2262","sy232","eg369","mc640","kr338","rls42","cs739","kz46","ch700","ks629","po82","ja595","aq34","hc395","ha398","jw791","ao433","oo332","jwr22","pmm34","nfao2","ag713","sco5","eb317","fg216","jfl9","arwb3","rn225","dc524","aj418","thb9","hjr22","cj286","mt447","ap820","jhs29","sta35","cd506","dbd4","ds653","fm303","ksp5","qyio2","ar419","td249","se286","sb2028","rw343","pw277","ks627","sjl52","ib243","ta288","ea427","ep397","cy65","ko239","ab2075","tir4","ev99","oap7","sde20","lth7","gs425","mjr40","akk9","njm51","apc32","bea7","mk622","kjp29","ja596","tr281","skw20","mms44","rjs80","vp251","cl522","cf338","kr283","mv273","ag728","af493","ap850","rs613","jra29","ab888","jm770","mjl56","cr509","to215","mh757","iz29","ofj2","ga279","hrj6","rts8","dn226","ka302","ia236","ra454","ld349","cc577","ghw3","jb2049","gk239","dicb2","wse4","dk328","aa2129","oh87","sy239","tgh5","dd366","hb319","jds27","kd333","svt6","sk670","bge3","ce272","lj251","tsdh2","oa335","zth2","jr607","aj410","sa772","jbf6","ht300","jh803","nb466","rg427","eir2","ls641","ts505","na379","ca469","kv79","hb379","oie3","jl715","vs276","tb461","sa733","dp400","jrc63","se277","ffm4","sv260","adm97","km629","df227","gh323","as2278","mp617","ha390","as2049","wm226","ajt41","vce5","npo3","js981","li41","jd551","ea386","awp3","amg39","jkb34","fb273","aw485","rr273","xz72","mp494","cjm55","ch520","sn372","st553","js2056","as2223","cr507","vd55","sj392","ad640");
+
+    private $2ndYearUndergradCant = array("et267","io61","ia237","ysm2","cei2","gk264","nym2","ol61","qp9","ld370","so332","jh923","bgm3","rr327","gj65","if50","jdm51","cm844","sjc91","otgb2","rk380","kb537","zg47","nlm21","ajh203","bm347","bf84","rv202","mrm45","ak776","cjc46","gaa21","jdg21","ps481","aglc2","sh795","lt355","sa773","ecbm2","ld380","ap770","ct401","fjg4","gs396","cm823","aj387","bm368","ma757","bw321","gc368","te83","nv55","ed336","lb608","jlyc2","rb610","je293","oyd2","bo206","scsc2","dk315","mjjo2","abp9","mm891","rmb49","vs287","db559","ep379","rwb21","zmm6","cc643","is285","aw590","mim24","dwa4","bg267","jw771","jj333","lw427","ce263","ajb95","jmh79","was22","gl248","da384","rs687","gbr4","ljc57","bb354","aa994","ma758","yn69","ccv2","jl653","ohaa2","jtm30","cb697","sd585","ew340","gd287","smc45","el279","jw736","jmw62","dmb43","tmd20","nl253","bg265","co264","do264","ah794","ei55","jp614","mm942","am2202","ll352","br244","wa73","eu26","zf31","daw35","jmb98","ap776","rsb44","mp573","co294","dlb33","jl654","sl545","ds613","ac845","ns576","jdp30","ra466","tbt3","ss2166","cl524","kc499","bjm32","pc357","gv48","rm636","lb569","tn229","imw5","dbd3","nco3","wf44","mzm3","nw256","zk50","mh705","rdd5","jj335","tm473","es555","hb416","sgs25","osf2","bo207","jsa22","ch678","rc495","et244","kb538","al503","rm631","njt32","gf217","dc522","jap61","jpk3","ra465","sj371","ma756","scp31","kl307");
+
+    private $3rdYearUndergradCant = array("fmb26","so281","ejf9","cg392","raw43","na364","ssk9","imha2","md513","bn69","amcg2","hn66","vk96","tds22","mj314","jw719","ka376","jjb39","tdr7","ma763","hn59","jhg8","jd535","ja452","ri47","jc799","jh821","nl227","so291","hm323","ek342","ap712","zk38","ps448","ta418","wh96","as2002","hg217","mg467","ba278","bhp4","kjp32","os222","km524","rc429","oy20","ekg9","am886","mp484","sc842","ek332","ou26","mp512","rr311","jd586","sk534","jb873","bj83","jc817","afa22","baa29","ft77","sp655","md543","bjd23","ta275","em451","oq3","jt379","bot2","br222","og55","rs510","tgg3","hd220","nar29","cdb33","ta422","sw517","py34","rk352","ak623","ns555","jb874","cb661","ahf6","cr553","tn213","tw315","acg23","cs634","cw501","gah22","yks5","am2005","apj8","jdb53","hsj3","dab44","pap28","aam53","cjys2","rd339","es498","jl563","dcb34","aa998","jv235","ap648","eb99","cg389","mb737","pr245","da332","jd529","gp234","dk288","nvja2","lh456","osc4");    
+    
+    
+    
+    function getYearAuth($email) { 
+        if (strpos($email, '@kent.ac.uk') !== FALSE) {
+            return null;
+        } else {
+            $username = substr($email, 0, strpos($email, "@") - 1);
+            if (in_array($username, $1stYearUndergradCant)) {
+                return 1;
+            } else if (in_array($username, $2ndYearUndergradCant)) {
+                return 2;
+            } else if (in_array($username, $3stYearUndergradCant)) {
+                return 3;
+            } else return null;
+        }
+    } 
+} 
+?>
